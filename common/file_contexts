@@ -133,7 +133,7 @@
 /system/bin/mm-pp-dpps                          u:object_r:mm-pp-daemon_exec:s0
 /system/bin/mmi                                 u:object_r:mmi_exec:s0
 /system/bin/mpdecision                          u:object_r:mpdecision_exec:s0
-/system/vendor/bin/perfd                        u:object_r:perfd_exec:s0
+/system/bin/perfd                               u:object_r:perfd_exec:s0
 /system/bin/iop                                 u:object_r:dumpstate_exec:s0
 /system/bin/msm_irqbalance                      u:object_r:msm_irqbalanced_exec:s0
 /system/bin/imsdatadaemon                       u:object_r:ims_exec:s0
@@ -146,7 +146,7 @@
 /system/bin/sensors.qcom                        u:object_r:sensors_exec:s0
 /system/bin/sns.*                               u:object_r:sensors_test_exec:s0
 /system/bin/test_diag                           u:object_r:diag_exec:s0
-/system/vendor/bin/thermal-engine               u:object_r:thermal-engine_exec:s0
+/system/bin/thermal-engine                      u:object_r:thermal-engine_exec:s0
 /system/bin/vm_bms                              u:object_r:vm_bms_exec:s0
 /system/bin/mm-qcamera-daemon                   u:object_r:mm-qcamerad_exec:s0
 /system/bin/qfp-daemon                          u:object_r:qfp-daemon_exec:s0
@@ -188,7 +188,7 @@
 /system/bin/garden_app                          u:object_r:location_exec:s0
 /system/bin/gpsone_daemon                       u:object_r:location_exec:s0
 /system/vendor/bin/slim_daemon                  u:object_r:location_exec:s0
-/system/vendor/bin/slim_ap_daemon                  u:object_r:location_exec:s0
+/system/vendor/bin/slim_ap_daemon               u:object_r:location_exec:s0
 /system/bin/energy-awareness                    u:object_r:energyawareness_exec:s0
 /system/vendor/bin/fidodaemon                   u:object_r:fidodaemon_exec:s0
 /system/vendor/bin/qseeproxydaemon              u:object_r:qseeproxy_exec:s0
